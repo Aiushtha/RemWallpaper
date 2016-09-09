@@ -1,11 +1,13 @@
 # RemWallpaper
 
 效果图
-<p>
-<img src="http://img.my.csdn.net/uploads/201609/09/1473409322_8352.gif" alt="" /><img src="http://img.blog.csdn.net/20160909164846097" alt="" />
-</p>
-<p>
-	<br />
+git 点击播放
+<img src="http://img.my.csdn.net/uploads/201609/09/1473409322_8352.gif" alt="" />
+设置
+<img src="http://img.blog.csdn.net/20160909164846097" alt="" />
+
+
+
 	
 
 博客地址：http://write.blog.csdn.net/postedit
