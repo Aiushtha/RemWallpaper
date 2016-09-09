@@ -1,8 +1,10 @@
 # RemWallpaper
 
 效果图
-git 点击播放
-<img src="http://img.my.csdn.net/uploads/201609/09/1473409322_8352.gif" alt="" />
+gif 效果
+
+http://img.my.csdn.net/uploads/201609/09/1473409322_8352.gif
+
 设置
 <img src="http://img.blog.csdn.net/20160909164846097" alt="" />
 
