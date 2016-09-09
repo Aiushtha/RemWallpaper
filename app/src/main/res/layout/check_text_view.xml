@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatCheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checkText_custom_ratio"
+    style="@style/CheckedTextViewLabel"
+    android:checkMark="?android:attr/listChoiceIndicatorSingle"
+    android:text="@string/custom_ratio" />

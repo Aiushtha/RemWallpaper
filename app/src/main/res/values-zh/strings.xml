@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RemWallpaper</string>
+    <string name="brightness">亮度值:</string>
+    <string name="left_offset">左偏移:</string>
+    <string name="upper_offset">上偏移:</string>
+    <string name="scale">比例:</string>
+    <string name="system_status_bar_height">计算系统状态栏高度:</string>
+    <string name="adaptive_width">宽度自适应:</string>
+    <string name="adaptive_height">高度自适应:</string>
+    <string name="custom_ratio">自定义比例:</string>
+    <string name="trigger_mode_single_check">触发方式-单击</string>
+    <string name="trigger_mode_long_check">触发方式-长按</string>
+    <string name="trigger_mode_double_check">触发方式-双击</string>
+    <string name="trigger_play_sound">播放音效</string>
+</resources>

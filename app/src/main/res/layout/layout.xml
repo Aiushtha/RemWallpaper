@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:MyExpandableView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#363636"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp">
+
+
+    <priv.lxz.wallpaper.rem.RatioImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#363636"
+            android:orientation="vertical">
+
+            <ImageView style="@style/line" />
+
+
+            <LinearLayout style="@style/SeekbarLayout">
+
+                <TextView
+                    style="@style/SeekbarLabel"
+                    android:text="@string/brightness" />
+
+                <android.support.v7.widget.AppCompatSeekBar
+                    android:id="@+id/seekbar_number_brightness"
+                    style="@style/Seekbar"
+                    android:max="100" />
+
+                <TextView
+                    android:id="@+id/textview_num_brightness"
+                    style="@style/SeekbarValueText" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/SeekbarLayout">
+
+                <TextView
+                    style="@style/SeekbarLabel"
+                    android:text="@string/left_offset" />
+
+                <android.support.v7.widget.AppCompatSeekBar
+                    android:id="@+id/seekbar_number_left_offset"
+                    style="@style/Seekbar"
+                    android:max="500" />
+
+                <TextView
+                    android:id="@+id/textview_num_left_offset"
+                    style="@style/SeekbarValueText" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/SeekbarLayout">
+
+                <TextView
+                    style="@style/SeekbarLabel"
+                    android:text="@string/upper_offset" />
+
+                <android.support.v7.widget.AppCompatSeekBar
+                    android:id="@+id/seekbar_number_upper_offset"
+                    style="@style/Seekbar"
+                    android:max="500" />
+
+                <TextView
+                    android:id="@+id/textview_num_upper_offset"
+                    style="@style/SeekbarValueText" />
+
+            </LinearLayout>
+
+
+            <ImageView style="@style/line" />
+
+
+            <android.support.v7.widget.AppCompatCheckedTextView
+                android:id="@+id/checkText_barheight"
+                style="@style/CheckedTextViewLabel"
+                android:text="@string/system_status_bar_height" />
+
+
+            <android.support.v7.widget.AppCompatCheckedTextView
+                android:id="@+id/checkText_adaptive_width"
+                style="@style/CheckedTextViewLabel"
+                android:checkMark="?android:attr/listChoiceIndicatorSingle"
+                android:text="@string/adaptive_width" />
+
+            <android.support.v7.widget.AppCompatCheckedTextView
+                android:id="@+id/checkText_adaptive_height"
+                style="@style/CheckedTextViewLabel"
+                android:checkMark="?android:attr/listChoiceIndicatorSingle"
+                android:text="@string/adaptive_height" />
+
+
+            <com.limxing.expandableview.view.ExpandableView
+                android:id="@+id/expand_number_scale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                MyExpandableView:ev_isCollapsed="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <LinearLayout style="@style/SeekbarLayout">
+
+                        <TextView
+                            style="@style/SeekbarLabel"
+                            android:text="@string/scale" />
+
+                        <android.support.v7.widget.AppCompatSeekBar
+                            android:id="@+id/seekbar_number_scale"
+                            style="@style/Seekbar"
+                            android:enabled="false"
+                            android:max="100" />
+
+                        <TextView
+                            android:id="@+id/textview_num_scale"
+                            style="@style/SeekbarValueText" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.limxing.expandableview.view.ExpandableView>
+
+
+            <ImageView style="@style/line" />
+
+            <android.support.v7.widget.AppCompatCheckedTextView
+                android:id="@+id/checkText_check_single"
+                style="@style/CheckedTextViewLabel"
+                android:text="@string/trigger_mode_single_check" />
+
+
+            <android.support.v7.widget.AppCompatCheckedTextView
+                android:id="@+id/checkText_check_long"
+                style="@style/CheckedTextViewLabel"
+                android:checkMark="?android:attr/listChoiceIndicatorSingle"
+                android:text="@string/trigger_mode_long_check" />
+
+            <android.support.v7.widget.AppCompatCheckedTextView
+                android:id="@+id/checkText_check_double"
+                style="@style/CheckedTextViewLabel"
+                android:checkMark="?android:attr/listChoiceIndicatorSingle"
+                android:text="@string/trigger_mode_double_check" />
+
+            <ImageView style="@style/line" />
+            <android.support.v7.widget.AppCompatCheckedTextView
+                android:id="@+id/checkText_play_sound"
+                style="@style/CheckedTextViewLabel"
+                android:text="@string/trigger_play_sound" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

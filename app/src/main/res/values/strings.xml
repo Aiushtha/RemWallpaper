@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RemWallpaper</string>
+    <string name="brightness">brightness:</string>
+    <string name="left_offset">left offset:</string>
+    <string name="upper_offset">upper offset:</string>
+    <string name="scale">scale:</string>
+    <string name="system_status_bar_height">calculate system status bar height:</string>
+    <string name="adaptive_width">adaptive width:</string>
+    <string name="adaptive_height">daptive height:</string>
+    <string name="custom_ratio">custom ratio:</string>
+    <string name="trigger_mode_single_check">trigger-single check</string>
+    <string name="trigger_mode_long_check">trigger-long check</string>
+    <string name="trigger_mode_double_check">trigger-double check</string>
+    <string name="trigger_play_sound">play sound</string>
+</resources>

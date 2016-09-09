@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 声明RatioImageView的属性 -->
+    <declare-styleable name="RatioImageView">
+        <attr name="ratio" format="float"></attr> <!-- float ： 数据类型 -->
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableView">
+        <attr name="viewTitle" format="string" />
+        <attr name="viewTitleShow" format="boolean" />
+        <attr name="viewTitleColor" format="color" />
+        <attr name="viewTitleSize" format="dimension" />
+        <attr name="viewTitleLineColor" format="color" />
+        <attr name="viewTitleBacColor" format="color" />
+        <attr name="viewTitleImage" format="reference" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandDrawable" format="reference" />
+        <attr name="collapseDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MyExpandableView">
+        <attr name="ev_titleLayout" format="integer" />
+        <attr name="ev_collapsedLayout" format="integer" />
+        <attr name="ev_isCollapsed" format="boolean" />
+        <attr name="ev_animDuration" format="integer" />
+        <attr name="ev_animAlphaStart" format="float" />
+    </declare-styleable>
+
+</resources>
